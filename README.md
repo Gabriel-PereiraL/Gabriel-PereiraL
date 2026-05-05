@@ -17,8 +17,8 @@ Tenho experiência com Python, APIs REST e bancos de dados relacionais, e estou 
 
 ## 🛠️ Tecnologias
 
-- Python, JavaScript, TypeScript (em aprendizado)  
-- FastAPI, Django (básico)  
+- Python, JavaScript, TypeScript  
+- FastAPI, Django 
 - PostgreSQL, MySQL, MariaDB  
 - HTML, CSS  
 - Git e GitHub  
