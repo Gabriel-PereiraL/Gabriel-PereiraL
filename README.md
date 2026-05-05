@@ -1,80 +1,80 @@
 # 👋 Gabriel Vitor Pereira Leite
 
-💻 Desenvolvedor focado em back-end  
-📍 São Paulo – SP  
+💻 Backend-focused Developer  
+📍 São Paulo, Brazil  
 
 ---
 
-## 🚀 Sobre mim
+## 🚀 About Me
 
-Atuo com desenvolvimento de sistemas voltados para uso real, com foco em soluções funcionais e simples de manter.
+I build systems designed for real-world usage, focusing on practical and maintainable solutions.
 
-Atualmente trabalho com TI e operação no Museu da Imaginação, onde desenvolvi e implementei sistemas utilizados no dia a dia, incluindo controle de portaria e experiências interativas para exposição.
+Currently working in IT and operations at Museu da Imaginação, where I develop and maintain internal systems used in daily operations, including a visitor control system and interactive applications for exhibitions.
 
-Tenho experiência com Python, APIs REST e bancos de dados relacionais, e estou em evolução para o ecossistema Node.js com TypeScript.
+I have experience with Python, REST APIs, and relational databases, and I’m currently expanding my skills into the Node.js and TypeScript ecosystem.
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tech Stack
 
-- Python, JavaScript, TypeScript  
-- FastAPI, Django 
+- Python, JavaScript, TypeScript (learning)  
+- FastAPI, Django (basic)  
 - PostgreSQL, MySQL, MariaDB  
 - HTML, CSS  
-- Git e GitHub  
+- Git, GitHub  
 
 ---
 
-## 📌 Projetos em Destaque
+## 📌 Featured Projects
 
-### 🏢 Sistema de Portaria  
-Sistema desktop para controle de entrada e saída de visitantes, utilizado em ambiente real.
+### 🏢 Visitor Control System  
+Desktop system used in a real environment to manage visitor entry and exit.
 
 - Python, PyQt, MariaDB  
-- Operação contínua e offline  
-- Uso diário no ambiente de trabalho  
+- Continuous operation, fully offline  
+- Used daily in a real-world setting  
 
 🔗 https://github.com/Gabriel-PereiraL/Sistema-portaria  
 
 ---
 
-### 💈 API de Agendamento (SaaS)  
-API para gerenciamento de agendamentos de barbearias.
+### 💈 Barber Scheduling API (SaaS)  
+Backend API for managing appointments.
 
-- FastAPI e PostgreSQL  
-- Estrutura REST  
-- Controle de clientes, horários e serviços  
+- FastAPI, PostgreSQL  
+- REST architecture  
+- Handles clients, schedules, and services  
 
 🔗 https://github.com/Gabriel-PereiraL/Saas-Barberaria-api  
 
 ---
 
-### 🏯 Experiência Interativa para Museu  
-Jogo narrativo desenvolvido para exposição, rodando em modo kiosk.
+### 🏯 Museum Interactive Experience  
+Narrative-based interactive game developed for a museum exhibition.
 
-- HTML, CSS e JavaScript  
-- Funciona 100% offline  
-- Utilizado em ambiente real no museu  
-- Sistema de decisões com múltiplos finais  
+- HTML, CSS, JavaScript  
+- Runs 100% offline (kiosk mode)  
+- Used in a real museum environment  
+- Multiple decision paths and endings  
 
 🔗 https://github.com/Gabriel-PereiraL/Jogo-Museologico-china  
 
 ---
 
-## 💼 Experiência
+## 💼 Experience
 
-**TI / Operacional – Museu da Imaginação**  
-Desenvolvimento de soluções internas e suporte técnico em ambiente real, incluindo sistemas utilizados diariamente pela equipe e aplicações interativas para visitantes.
-
----
-
-## 🎯 Objetivo
-
-Busco oportunidade como desenvolvedor back-end júnior, onde eu possa evoluir tecnicamente e contribuir com soluções práticas.
+**IT / Operations – Museu da Imaginação**  
+Development of internal systems and technical support in a real-world environment, including tools used daily by staff and interactive applications for visitors.
 
 ---
 
-## 📫 Contato
+## 🎯 Goal
+
+Looking for a junior backend developer role where I can grow technically and contribute with practical solutions.
+
+---
+
+## 📫 Contact
 
 📧 bielvilasboaslv@hotmail.com  
-🔗 https://www.linkedin.com/in/gabriel-vitor-pereira-leite-92235822a/  
+🔗 https://www.linkedin.com/in/gabriel-vitor-pereira-leite-92235822a/
