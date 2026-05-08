@@ -5,39 +5,41 @@
 
 ---
 
-## 🚀 About Me
+🚀 About Me
 
-I build systems for real-world usage, focusing on practical and maintainable solutions.
+Developer focused on building practical systems for real-world environments.
 
-Currently working in IT and operations at Museu da Imaginação, developing and maintaining internal systems used in daily operations.
+Currently working in IT and operations at Museu da Imaginação, where I develop and maintain internal systems and interactive installations used daily by staff and visitors.
 
-Experience with Python, REST APIs, and relational databases. Currently expanding into Node.js and TypeScript.
+My work involves creating reliable offline-first solutions, kiosk applications, and operational tools designed for continuous public usage.
 
----
+Currently focused on backend development with Python while expanding into Node.js and TypeScript.
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
+Python
+JavaScript
+TypeScript (learning)
+FastAPI
+Django (basic)
+PostgreSQL
+MariaDB
+MySQL
+HTML / CSS
+Git / GitHub
+💼 Experience
+IT / Operations — Museu da Imaginação
 
-- Python, JavaScript, TypeScript (learning)  
-- FastAPI, Django (basic)  
-- PostgreSQL, MySQL, MariaDB  
-- HTML, CSS  
-- Git, GitHub  
+Working with technical support, operational systems, and interactive technology in a real public environment.
 
----
+Main responsibilities:
+Developed and maintain a visitor management system used daily by museum staff
+Built offline interactive kiosk experiences running on Raspberry Pi devices
+Created backend tools to support operational workflows
+Maintain system stability for continuous public usage
+Work directly with real-world usability and operational constraints
+Technologies used:
 
-## 💼 Experience
-
-**IT / Operations – Museu da Imaginação**  
-
-Working with technical support and day-to-day system operations in a real-world environment.
-
-- Developed and maintain a visitor control system used daily by staff (Python, MariaDB)  
-- Built interactive kiosk applications for visitors, running 100% offline  
-- Created backend solutions to support internal operational needs  
-- Responsible for system stability and continuous operation in a public environment  
-- Experience working with real users, handling practical constraints and usability  
-
----
+Python, FastAPI, MariaDB, Raspberry Pi, HTML/CSS
 
 ## 📫 Contact
 
