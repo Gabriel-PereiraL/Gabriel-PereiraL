@@ -1,57 +1,26 @@
-# 👋 Gabriel Vitor Pereira Leite
+## 👋 About Me
 
-💻 Backend-focused Developer  
-📍 São Paulo, Brazil  
+Backend Developer focused on building and maintaining real-world systems and business-critical workflows.
 
----
+Currently working on the development and evolution of internal and customer-facing applications, with hands-on experience in backend development, REST APIs, third-party integrations, relational databases, authentication, security, and automated testing.
 
-# 🚀 About Me
+My recent work includes e-commerce and delivery workflows, product catalog integrations, shipping and logistics APIs, payment flows, and the modernization of existing systems.
 
-Developer focused on building practical systems for real-world environments.
+I care about reliability beyond just making features work: validating business rules, preventing regressions, reviewing changes, testing integrations, and keeping systems maintainable as they evolve.
 
-Currently working in IT and operations at **Museu da Imaginação**, where I develop and maintain internal systems and interactive installations used daily by staff and visitors.
+I also use AI-assisted development extensively as part of my engineering workflow for implementation, code review, debugging, testing, and technical analysis.
 
-My work involves creating reliable offline-first solutions, kiosk applications, and operational tools designed for continuous public usage.
+### 🛠️ Main Technologies
 
-Currently focused on backend development with Python while expanding into Node.js and TypeScript.
-
----
-
-# 🛠️ Tech Stack
-
+* PHP
 * Python
 * JavaScript
-* TypeScript *(learning)*
-* FastAPI
-* Django *(basic)*
-* PostgreSQL
-* MariaDB
-* MySQL
-* HTML / CSS
-* Git / GitHub
+* MySQL / MariaDB / PostgreSQL
+* REST APIs & third-party integrations
+* Git & GitHub
+* Automated testing
+* Backend security practices
 
----
+### 🔭 Currently Improving
 
-# 💼 Experience
-
-## IT / Operations — Museu da Imaginação
-
-Working with technical support, operational systems, and interactive technology in a real public environment.
-
-### Main responsibilities:
-
-* Developed and maintain a visitor management system used daily by museum staff
-* Built offline interactive kiosk experiences running on Raspberry Pi devices
-* Created backend tools to support operational workflows
-* Maintain system stability for continuous public usage
-* Work directly with real-world usability and operational constraints
-
-### Technologies used:
-
-Python, FastAPI, MariaDB, Raspberry Pi, HTML/CSS
-
-
-## 📫 Contact
-
-📧 bielvilasboaslv@hotmail.com  
-🔗 linkedin.com/in/gabriel-vitor-pereira-leite-92235822a  
+Deepening my backend engineering knowledge, software architecture, application security, and the use of AI agents in software development.
