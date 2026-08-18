@@ -20,8 +20,6 @@ A good part of my professional work lives in private repositories, so this profi
 
 **Serraf Delivery** — An internal delivery management system integrating external logistics providers, with quotation and delivery flows, status tracking, webhooks and operational workflows. The codebase is private, but it's one of the projects where I've spent the most time dealing with real integrations, failure scenarios and production behavior.
 
-**PHP Backend Showcase** *(in progress)* — A deliberately small public API I'm building because most of my PHP work lives in private professional repositories. Its purpose is to make my approach publicly inspectable: API design, clean architecture, business rules, automated testing, external integrations, Docker, CI and incremental Git history. The goal isn't feature count — it's making the engineering decisions visible.
-
 ---
 
 ## How I approach development
