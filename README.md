@@ -16,9 +16,11 @@ A good part of my professional work lives in private repositories, so this profi
 
 ## What I've been working on
 
-**Sistema-portaria** — A Python front-desk system in active use at Museu da Imaginação, built around the actual routine of the people using it.
+**[Portal Serraf](https://portal.serraff.com.br)** — A production e-commerce and product catalog platform built around real business operations. My work involves backend development, external integrations, shipping and availability rules, authentication, checkout flows, automated testing and maintaining existing behavior while the system continues to evolve.
 
-**ProjetoFormigueiro** — [what it does and the problem it solved].
+**Serraf Delivery** — An internal delivery management system integrating external logistics providers, with quotation and delivery flows, status tracking, webhooks and operational workflows. The codebase is private, but it's one of the projects where I've spent the most time dealing with real integrations, failure scenarios and production behavior.
+
+**PHP Backend Showcase** *(in progress)* — A deliberately small public API I'm building because most of my PHP work lives in private professional repositories. Its purpose is to make my approach publicly inspectable: API design, clean architecture, business rules, automated testing, external integrations, Docker, CI and incremental Git history. The goal isn't feature count — it's making the engineering decisions visible.
 
 ---
 
