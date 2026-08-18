@@ -1,109 +1,62 @@
-# 👋 Gabriel Vitor Pereira Leite
+# Gabriel Pereira
 
-**Backend Developer | PHP & TypeScript | APIs & Integrations | Production Systems**
-
-📍 São Paulo, Brazil
+Backend developer working mainly with PHP and TypeScript on production systems, APIs and integrations.
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-Backend Developer focused on building, maintaining, and evolving systems used in real-world business environments.
+Most of what I build involves making systems talk to each other reliably — APIs, external services, databases and the business rules connecting them.
 
-Currently working with **PHP and TypeScript**, developing backend features, integrating external services, maintaining existing applications, and turning business requirements into reliable production workflows.
+I've worked mostly around product catalogs, shipping and logistics, payments, authentication and internal systems.
 
-My recent experience includes **e-commerce, product catalogs, delivery and logistics integrations, payment flows, authentication, relational databases, and internal operational systems**.
-
-Beyond implementing features, I work with **automated testing, regression prevention, security practices, debugging, code review, and production-oriented validation** to make sure changes work without breaking existing functionality.
-
-I also use **AI-assisted development and coding agents** extensively throughout my workflow for implementation, technical analysis, debugging, testing, and code review.
+A good part of my professional work lives in private repositories, so this profile only shows part of what I work on.
 
 ---
 
-## 🛠️ Main Technologies
+## What I've been working on
 
-### Backend
+**Sistema-portaria** — A Python front-desk system in active use at Museu da Imaginação, built around the actual routine of the people using it.
 
-* PHP
-* REST APIs
-* API integrations
-* Authentication & authorization
-* Business logic
-* Automated testing
-
-### Web
-
-* TypeScript
-* JavaScript
-* HTML
-* CSS
-
-### Databases
-
-* MySQL
-* MariaDB
-* PostgreSQL
-
-### Engineering & Tools
-
-* Git & GitHub
-* API testing
-* Debugging
-* Regression testing
-* Backend security practices
-* AI-assisted development
+**ProjetoFormigueiro** — [what it does and the problem it solved].
 
 ---
 
-## 🚀 What I've Been Working On
+## How I approach development
 
-My recent work involves systems that need to operate reliably in real business environments, including:
+Before changing code, I try to understand the business rule and the existing behavior behind it. Knowing what the code does isn't always the same as knowing why it does it.
 
-* E-commerce and ordering workflows
-* Product catalog integrations
-* Delivery and logistics APIs
-* Shipping calculation and validation
-* Payment workflows
-* Authentication and access control
-* Internal operational tools
-* Integration with existing and legacy systems
-* Automated tests and regression prevention
-* Production troubleshooting and maintenance
+I prefer small, incremental changes. I read the actual diff before considering something finished and pay particular attention to code I didn't intend to affect.
+
+I test critical paths first — especially flows involving money, external integrations or anything that can block a user. New behavior matters, but existing behavior has to keep working too.
+
+Regression prevention is a big part of how I think about changes.
 
 ---
 
-## 🧠 How I Approach Development
+## AI in my workflow
 
-I try to understand the **business rule and existing system before changing the code**.
+I use AI coding agents daily for implementation, investigation, debugging, repetitive work and exploring unfamiliar code.
 
-My workflow usually involves investigating the current behavior, identifying risks, implementing changes incrementally, testing critical flows, reviewing the resulting diff, and validating that existing functionality continues to work.
+I treat generated code the same way I would code from another developer: I review it, test it and make sure I understand what it does before accepting it.
 
-For me, shipping a feature is not only about making the new behavior work. It also means making sure **what was already working keeps working**.
+I don't ship code I can't explain.
 
----
-
-## 🤖 AI-Assisted Engineering
-
-AI is part of my daily development workflow, not a replacement for validation.
-
-I use coding agents to accelerate implementation, investigation, debugging, test creation, and code review while keeping changes under human supervision and validating the final behavior through tests and review.
+The dangerous failure isn't always obviously broken code. Sometimes it's perfectly plausible code doing the wrong thing.
 
 ---
 
-## 📚 Currently Improving
+## Stack
 
-Currently deepening my knowledge in:
-
-* Backend architecture
-* PHP ecosystem and modern backend practices
-* TypeScript
-* Application security
-* Automated testing and QA
-* Software architecture
-* AI-assisted software engineering
+**Main:** PHP · TypeScript
+**Databases:** MySQL · PostgreSQL
+**Also use:** Python · Git · GitHub Actions
+**Work around:** REST APIs · Third-party integrations · SQL
 
 ---
 
-### 💼 Focus
+## Focus right now
 
-**Backend Development • PHP • TypeScript • APIs • Integrations • SQL • Production Systems**
+I'm improving how I structure codebases as they grow: where responsibilities belong, how boundaries should be defined and how to keep changes from becoming unnecessarily expensive.
+
+I'm also getting better at automated testing — especially writing tests that protect behavior and catch regressions instead of existing just to increase coverage.
