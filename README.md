@@ -12,11 +12,15 @@ I've worked mostly around product catalogs, shipping and logistics, payments, au
 
 A good part of my professional work lives in private repositories, so this profile only shows part of what I work on.
 
+That's why I built [**orders-shipping-api**](https://github.com/Gabriel-PereiraL/orders-shipping-api). It's deliberately small and public: not another product pretending to solve a huge problem, but a place where you can actually inspect how I structure a PHP backend, model business rules, handle integration failures, write tests and use Docker, CI and Git.
+
+If you want to know how I work rather than just read what I say I do, that's probably the best place to start. And if something there is worth discussing, let's talk.
+
 ---
 
 ## What I've been working on
 
-**[Portal Serraf](https://portal.serraf.com.br)** — A production e-commerce and product catalog platform built around real business operations. My work involves backend development, external integrations, shipping and availability rules, authentication, checkout flows, automated testing and maintaining existing behavior while the system continues to evolve.
+[**Portal Serraf**](https://portal.serraf.com.br/) — A production e-commerce and product catalog platform built around real business operations. My work involves backend development, external integrations, shipping and availability rules, authentication, checkout flows, automated testing and maintaining existing behavior while the system continues to evolve.
 
 **Serraf Delivery** — An internal delivery management system integrating external logistics providers, with quotation and delivery flows, status tracking, webhooks and operational workflows. The codebase is private, but it's one of the projects where I've spent the most time dealing with real integrations, failure scenarios and production behavior.
 
@@ -48,9 +52,9 @@ The dangerous failure isn't always obviously broken code. Sometimes it's perfect
 
 ## Stack
 
-**Main:** PHP · TypeScript
-**Databases:** MySQL · PostgreSQL
-**Also use:** Python · Git · GitHub Actions
+**Main:** PHP · TypeScript  
+**Databases:** MySQL · PostgreSQL  
+**Also use:** Python · Git · GitHub Actions  
 **Work around:** REST APIs · Third-party integrations · SQL
 
 ---
