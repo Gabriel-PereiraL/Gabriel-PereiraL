@@ -16,7 +16,7 @@ A good part of my professional work lives in private repositories, so this profi
 
 ## What I've been working on
 
-**[Portal Serraf](https://portal.serraff.com.br)** — A production e-commerce and product catalog platform built around real business operations. My work involves backend development, external integrations, shipping and availability rules, authentication, checkout flows, automated testing and maintaining existing behavior while the system continues to evolve.
+**[Portal Serraf](https://portal.serraf.com.br)** — A production e-commerce and product catalog platform built around real business operations. My work involves backend development, external integrations, shipping and availability rules, authentication, checkout flows, automated testing and maintaining existing behavior while the system continues to evolve.
 
 **Serraf Delivery** — An internal delivery management system integrating external logistics providers, with quotation and delivery flows, status tracking, webhooks and operational workflows. The codebase is private, but it's one of the projects where I've spent the most time dealing with real integrations, failure scenarios and production behavior.
 
