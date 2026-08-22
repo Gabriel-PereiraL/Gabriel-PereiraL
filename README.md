@@ -12,9 +12,12 @@ I've worked mostly around product catalogs, shipping and logistics, payments, au
 
 A good part of my professional work lives in private repositories, so this profile only shows part of what I work on.
 
-That's why I built [**orders-shipping-api**](https://github.com/Gabriel-PereiraL/orders-shipping-api). It's deliberately small and public: not another product pretending to solve a huge problem, but a place where you can actually inspect how I structure a PHP backend, model business rules, handle integration failures, write tests and use Docker, CI and Git.
+That's why I keep two deliberately small public backend projects:
 
-If you want to know how I work rather than just read what I say I do, that's probably the best place to start. And if something there is worth discussing, let's talk.
+- [**orders-shipping-api**](https://github.com/Gabriel-PereiraL/orders-shipping-api) shows how I structure a framework-light PHP backend, model business rules, isolate carrier failures and keep architecture boundaries explicit.
+- [**LedgerLab**](https://github.com/Gabriel-PereiraL/ledger-lab) shows how I use Laravel and PostgreSQL for financial consistency: an auditable ledger, concurrent spending, idempotency, reversals, signed webhooks, queues and reconciliation.
+
+Neither pretends to be a product. They exist so the decisions, failure paths, tests, Docker setup and CI can be inspected rather than only described. If you want to know how I work, they are the best places to start.
 
 ---
 
