@@ -37,7 +37,8 @@ The providers are simulated and no real payments or deliveries are performed.
 
 ## Professional work
 
-### Portal Serraf
+### Portal Serraf - portal.serraf.com.br
+
 
 Production e-commerce and product catalog platform built around real business operations.
 
@@ -45,8 +46,7 @@ My work includes backend development, external integrations, authentication, che
 
 **Main stack:** PHP · MySQL · REST APIs
 
-### Serraf Delivery - portal.serraf.com.br
-
+### Serraf Delivery - 
 Internal logistics platform integrating external delivery providers.
 
 The system handles quotations, delivery creation and cancellation, provider webhooks, status tracking and operational workflows.
