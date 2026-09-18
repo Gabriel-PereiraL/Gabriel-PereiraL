@@ -1,67 +1,84 @@
 # Gabriel Pereira
 
-Backend developer focused on **C#/.NET and PHP**, building APIs, integrations and backend systems around real business rules.
+Backend Developer focused on **C#/.NET and PHP**, building APIs, integrations and backend systems with an emphasis on reliability, consistency and maintainability.
 
-My professional experience is mainly in PHP, working with production systems, external integrations, logistics, authentication, checkout flows and relational databases.
-
-For new projects and the next step in my career, my primary focus is **C#/.NET**.
+I work with backend problems such as external integrations, asynchronous processing, idempotency, concurrency, authentication, observability and automated testing.
 
 ---
 
-## Featured project
+## Featured Project
 
 ### FulfillmentHub — C# / .NET 10
 
-A backend engineering portfolio project for order, payment and delivery orchestration.
+Backend platform for **order, payment and delivery orchestration**, built as a modular monolith in C#/.NET.
 
-It is built as a modular monolith and focuses on problems that appear in real backend systems rather than CRUD alone:
+The project focuses on engineering problems commonly found in real backend systems:
 
-- transactional outbox
-- SQS messaging and idempotent consumers
-- optimistic concurrency
+- Transactional Outbox
+- AWS SQS and idempotent consumers
+- Optimistic concurrency
 - API idempotency
-- signed webhooks
-- retry, exponential backoff, jitter and circuit breakers
-- reconciliation jobs
+- HMAC-signed webhooks
+- Retry, exponential backoff, jitter and circuit breakers
+- Payment and delivery reconciliation
 - JWT authentication and resource authorization
 - OpenTelemetry
-- PostgreSQL
+- PostgreSQL with EF Core
 - Testcontainers
-- automated unit, integration and architecture tests
+- Unit, integration and architecture tests
 
-The providers are simulated and no real payments or deliveries are performed.
+External payment and delivery providers are simulated, allowing failure scenarios, retries, duplicate events, out-of-order webhooks and reconciliation flows to be tested without depending on real services.
 
-→ [FulfillmentHub](LINK_DO_REPO)
-
----
-
-## Professional work
-
-### Portal Serraf - portal.serraf.com.br
-
-
-Production e-commerce and product catalog platform built around real business operations.
-
-My work includes backend development, external integrations, authentication, checkout flows, pricing and availability rules, automated testing and maintaining existing behavior as the system evolves.
-
-**Main stack:** PHP · MySQL · REST APIs
-
-### Serraf Delivery - 
-Internal logistics platform integrating external delivery providers.
-
-The system handles quotations, delivery creation and cancellation, provider webhooks, status tracking and operational workflows.
-
-**Main stack:** PHP · MySQL · External APIs · Webhooks
+→ [FulfillmentHub](https://github.com/Gabriel-PereiraL/fullfillmentHub)
 
 ---
 
-## Other backend projects
+## Professional Work
+
+### Portal Serraf
+
+Backend-focused e-commerce and automotive catalog platform supporting real business operations.
+
+My work includes:
+
+- backend development
+- external API integrations
+- authentication and authorization
+- catalog synchronization
+- pricing and availability rules
+- checkout and order workflows
+- rate limiting and anti-abuse controls
+- automated testing
+- production debugging and deployment
+
+**Stack:** PHP · MySQL · REST APIs
+
+### Serraf Delivery
+
+Internal logistics platform integrating external delivery providers and operational workflows.
+
+The platform handles:
+
+- delivery quotations
+- delivery creation and cancellation
+- provider integrations
+- signed webhooks
+- status tracking
+- pickup and delivery evidence
+- operational flows
+- production troubleshooting
+
+**Stack:** PHP · MySQL · REST APIs · Webhooks
+
+---
+
+## Backend Projects
 
 ### LedgerLab — PHP / Laravel
 
-Financial ledger API focused on consistency and failure handling:
+Financial ledger API focused on consistency, concurrency and failure handling.
 
-- concurrent spending
+- concurrent spending protection
 - idempotency
 - reversals
 - signed webhooks
@@ -70,11 +87,9 @@ Financial ledger API focused on consistency and failure handling:
 - PostgreSQL
 - automated tests
 
-→ [LedgerLab](LINK)
-
 ### Orders & Shipping API — PHP
 
-Framework-light backend project focused on architecture boundaries, business rules and external integration failures.
+Framework-light backend API focused on architecture boundaries and external integration failures.
 
 - layered architecture
 - shipping provider abstraction
@@ -85,21 +100,21 @@ Framework-light backend project focused on architecture boundaries, business rul
 - Docker
 - CI
 
-→ [Orders & Shipping API](LINK)
+→ [Orders & Shipping API](https://github.com/Gabriel-PereiraL/orders-shipping-api)
 
 ---
 
-## Backend engineering
+## Backend Engineering
 
-The areas I spend most of my time studying and applying are:
+Areas I work with and continuously deepen:
 
 - API design
-- distributed systems fundamentals
 - external integrations
+- distributed systems fundamentals
 - idempotency
 - concurrency and consistency
 - asynchronous processing
-- queues and workers
+- queues and background workers
 - resilience patterns
 - authentication and authorization
 - observability
@@ -110,20 +125,20 @@ The areas I spend most of my time studying and applying are:
 
 ## Stack
 
-**Primary:** C# · .NET · ASP.NET Core · PHP
+**Backend:** C# · .NET · ASP.NET Core · PHP
 
 **Data:** PostgreSQL · MySQL · EF Core
 
-**Backend:** REST APIs · Webhooks · Background Workers · Messaging
+**Architecture & Integration:** REST APIs · Webhooks · Messaging · Background Workers · External Providers
 
 **Engineering:** Docker · Git · GitHub Actions · OpenTelemetry · Testcontainers
 
 ---
 
-## AI-assisted development
+## Engineering Workflow
 
-I use AI coding agents as part of my daily engineering workflow for implementation, investigation, debugging and repetitive work.
+I use AI coding agents as part of my development workflow for implementation, investigation, debugging and repetitive engineering work.
 
-Generated code is treated like code from another developer: it gets reviewed, tested and understood before being accepted.
+AI-generated changes are reviewed, tested and validated before being accepted.
 
 **I don't ship code I can't explain.**
