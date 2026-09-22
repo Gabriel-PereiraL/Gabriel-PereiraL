@@ -131,7 +131,7 @@ Areas I work with and continuously deepen:
 
 **Architecture & Integration:** REST APIs · Webhooks · Messaging · Background Workers · External Providers
 
-**Engineering:** Docker · Git · GitHub Actions · OpenTelemetry · Testcontainers
+**Engineering:** Docker · Kubernetes · Git · GitHub Actions · OpenTelemetry · Testcontainers
 
 ---
 
