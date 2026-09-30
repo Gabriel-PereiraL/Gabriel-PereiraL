@@ -1,144 +1,49 @@
 # Gabriel Pereira
 
-Backend Developer focused on **C#/.NET and PHP**, building APIs, integrations and backend systems with an emphasis on reliability, consistency and maintainability.
+Backend Engineer focused on transactional systems, integrations, and reliability.
 
-I work with backend problems such as external integrations, asynchronous processing, idempotency, concurrency, authentication, observability and automated testing.
+**C# / .NET · Java / Spring Boot · PHP**
 
----
+I build and study backend systems where correctness under failure matters: payments, order workflows, messaging, idempotency, concurrency, authentication, recovery, and observability. My current engineering focus is C#/.NET and Java/Spring Boot. PHP is part of my professional backend experience.
 
-## Featured Project
+## Featured engineering projects
 
-### FulfillmentHub — C# / .NET 10
+### [Fulfillment Hub — .NET](https://github.com/Gabriel-PereiraL/fulfillment-hub)
 
-Backend platform for **order, payment and delivery orchestration**, built as a modular monolith in C#/.NET.
+A transactional order, payment, and delivery platform. It explores atomic state changes, transactional outbox, SQS delivery, idempotent consumers, signed webhooks, provider reconciliation, concurrency control, and failure recovery in the .NET ecosystem.
 
-The project focuses on engineering problems commonly found in real backend systems:
+### [Fulfillment Hub — Java / Spring Boot](https://github.com/Gabriel-PereiraL/fulfillment-hub-java)
 
-- Transactional Outbox
-- AWS SQS and idempotent consumers
-- Optimistic concurrency
-- API idempotency
-- HMAC-signed webhooks
-- Retry, exponential backoff, jitter and circuit breakers
-- Payment and delivery reconciliation
-- JWT authentication and resource authorization
-- OpenTelemetry
-- PostgreSQL with EF Core
-- Testcontainers
-- Unit, integration and architecture tests
+An equivalent implementation of the fulfillment problem using idiomatic Java and Spring Boot choices. The workflow survives lost provider responses, duplicate and out-of-order events, abandoned processing leases, and HTTP idempotency crash windows. PostgreSQL integration tests and an end-to-end environment exercise the real persistence and messaging boundaries.
 
-External payment and delivery providers are simulated, allowing failure scenarios, retries, duplicate events, out-of-order webhooks and reconciliation flows to be tested without depending on real services.
+The two Fulfillment Hub repositories solve the same core problem in different ecosystems. They demonstrate transferable backend fundamentals rather than a line-by-line port.
 
-→ [FulfillmentHub](https://github.com/Gabriel-PereiraL/fullfillmentHub)
+### [LedgerLab — PHP / Laravel](https://github.com/Gabriel-PereiraL/ledger-lab)
 
----
+A financial ledger API centered on consistency: concurrent spending protection, idempotency, reversals, signed webhooks, queues, reconciliation, and automated tests.
 
-## Professional Work
+### [Orders & Shipping API — PHP](https://github.com/Gabriel-PereiraL/orders-shipping-api)
 
-### Portal Serraf
+A framework-light API that makes architecture boundaries and external shipping failures explicit, with static analysis, unit and integration tests, containers, and CI.
 
-Backend-focused e-commerce and automotive catalog platform supporting real business operations.
+## Professional background
 
-My work includes:
+My professional backend work uses PHP and MySQL in e-commerce, automotive catalog, and logistics systems. It includes external API integrations, authentication and authorization, catalog synchronization, pricing and availability rules, checkout and order workflows, signed webhooks, operational troubleshooting, testing, and deployment.
 
-- backend development
-- external API integrations
-- authentication and authorization
-- catalog synchronization
-- pricing and availability rules
-- checkout and order workflows
-- rate limiting and anti-abuse controls
-- automated testing
-- production debugging and deployment
+The C#/.NET and Java/Spring Boot systems above are engineering portfolio projects. They do not represent professional production experience in those stacks.
 
-**Stack:** PHP · MySQL · REST APIs
+## Engineering evidence
 
-### Serraf Delivery
+- **Correctness:** atomic order and stock changes, optimistic concurrency, explicit state-transition policies, and durable idempotency records.
+- **Integration:** REST APIs, HMAC-signed webhooks, external provider simulators, asynchronous messages, retries, and reconciliation.
+- **Failure recovery:** stable provider keys, resumable unknown outcomes, owner-fenced leases, dead-letter queues, and bounded retry responsibility.
+- **Operations:** structured logs, correlation IDs, OpenTelemetry, Prometheus metrics, health checks, Docker, Kubernetes manifests, and CI security gates.
+- **Data:** PostgreSQL and MySQL, relational modeling, migrations, locking, and transaction boundaries.
 
-Internal logistics platform integrating external delivery providers and operational workflows.
+## Technologies
 
-The platform handles:
+**Primary focus:** C# · .NET · ASP.NET Core · Java · Spring Boot
 
-- delivery quotations
-- delivery creation and cancellation
-- provider integrations
-- signed webhooks
-- status tracking
-- pickup and delivery evidence
-- operational flows
-- production troubleshooting
+**Professional experience:** PHP · MySQL · REST APIs · Webhooks
 
-**Stack:** PHP · MySQL · REST APIs · Webhooks
-
----
-
-## Backend Projects
-
-### LedgerLab — PHP / Laravel
-
-Financial ledger API focused on consistency, concurrency and failure handling.
-
-- concurrent spending protection
-- idempotency
-- reversals
-- signed webhooks
-- queues
-- reconciliation
-- PostgreSQL
-- automated tests
-
-### Orders & Shipping API — PHP
-
-Framework-light backend API focused on architecture boundaries and external integration failures.
-
-- layered architecture
-- shipping provider abstraction
-- explicit failure modelling
-- MySQL
-- PHPStan
-- unit and integration tests
-- Docker
-- CI
-
-→ [Orders & Shipping API](https://github.com/Gabriel-PereiraL/orders-shipping-api)
-
----
-
-## Backend Engineering
-
-Areas I work with and continuously deepen:
-
-- API design
-- external integrations
-- distributed systems fundamentals
-- idempotency
-- concurrency and consistency
-- asynchronous processing
-- queues and background workers
-- resilience patterns
-- authentication and authorization
-- observability
-- automated testing
-- relational databases
-
----
-
-## Stack
-
-**Backend:** C# · .NET · ASP.NET Core · PHP
-
-**Data:** PostgreSQL · MySQL · EF Core
-
-**Architecture & Integration:** REST APIs · Webhooks · Messaging · Background Workers · External Providers
-
-**Engineering:** Docker · Kubernetes · Git · GitHub Actions · OpenTelemetry · Testcontainers
-
----
-
-## Engineering Workflow
-
-I use AI coding agents as part of my development workflow for implementation, investigation, debugging and repetitive engineering work.
-
-AI-generated changes are reviewed, tested and validated before being accepted.
-
-**I don't ship code I can't explain.**
+**Data and operations:** PostgreSQL · EF Core · JPA/Hibernate · SQS · Docker · Kubernetes · GitHub Actions · OpenTelemetry · Testcontainers
