@@ -2,9 +2,13 @@
 
 Backend Engineer focused on transactional systems, integrations, and reliability.
 
-**C# / .NET · Java / Spring Boot · PHP**
+**Primary engineering stacks: C# / .NET · Java / Spring Boot**
+
+**Professional backend experience: PHP · MySQL**
 
 I build and study backend systems where correctness under failure matters: payments, order workflows, messaging, idempotency, concurrency, authentication, recovery, and observability. My current engineering focus is C#/.NET and Java/Spring Boot. PHP is part of my professional backend experience.
+
+I document what independent reviews found and how I treated each finding in my [audit remediation history](AUDIT_REMEDIATION_HISTORY.md). I keep open limitations explicit instead of presenting a passing pipeline as proof of every production property.
 
 ## Featured engineering projects
 
@@ -39,6 +43,7 @@ The C#/.NET and Java/Spring Boot systems above are engineering portfolio project
 - **Failure recovery:** stable provider keys, resumable unknown outcomes, owner-fenced leases, dead-letter queues, and bounded retry responsibility.
 - **Operations:** structured logs, correlation IDs, OpenTelemetry, Prometheus metrics, health checks, Docker, Kubernetes manifests, and CI security gates.
 - **Data:** PostgreSQL and MySQL, relational modeling, migrations, locking, and transaction boundaries.
+- **Review and remediation:** adversarial concurrency, crash-window and state-machine findings tracked from reproduction through implementation and CI evidence.
 
 ## Technologies
 
